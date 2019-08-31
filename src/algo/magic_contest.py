@@ -10,5 +10,6 @@ if __name__ == "__main__":
         player.do_magic("sea horse")
         unique_type = player.get_unique_type()
         print(f"{unique_type}")
-        for magic_type in player.get_magic_type():
+        magic_type_list = player.get_magic_type_list()
+        for magic_type in magic_type_list:
             print(f"{magic_type}")
