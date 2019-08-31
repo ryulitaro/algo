@@ -8,3 +8,5 @@ if __name__ == "__main__":
 
     for player in player_list:
         player.do_magic('sea horse')
+        for magic_type in player.get_magic_type():
+            print(f'{magic_type}')
