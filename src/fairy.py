@@ -25,6 +25,7 @@ magic_map = {
 class Fairy:
     def __init__(self):
         self.capability = [FairyType.COMMON]
+        self.name = __name__
 
     def do_magic(self, target):
         for item in self.capability:

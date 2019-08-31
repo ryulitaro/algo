@@ -1,8 +1,8 @@
 import unittest
 from unittest.mock import Mock
 
-from algo.fairy import FairyType, MagicType
-from algo.leaf_fairy import LeafFairy
+from fairy import FairyType, MagicType
+from leaf_fairy import LeafFairy
 
 
 class TestFairy(unittest.TestCase):

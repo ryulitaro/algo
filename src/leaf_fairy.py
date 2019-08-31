@@ -1,4 +1,4 @@
-from algo.fairy import Fairy, FairyType
+from fairy import Fairy, FairyType
 
 
 class LeafFairy(Fairy):

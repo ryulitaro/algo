@@ -1,5 +1,5 @@
-from algo.leaf_fairy import LeafFairy
-from algo.mermaid_fairy import MermaidFairy
+from leaf_fairy import LeafFairy
+from mermaid_fairy import MermaidFairy
 
 if __name__ == "__main__":
     leaf_fairy = LeafFairy()
@@ -13,3 +13,4 @@ if __name__ == "__main__":
         magic_type_list = player.get_magic_type_list()
         for magic_type in magic_type_list:
             print(f"{magic_type}")
+        print(f"{player.name}")
