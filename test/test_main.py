@@ -3,7 +3,7 @@ from unittest.mock import Mock
 
 from fairy import FairyType, MagicType
 from leaf_fairy import LeafFairy
-
+import click
 
 class TestFairy(unittest.TestCase):
     def test_magic_type(self):
